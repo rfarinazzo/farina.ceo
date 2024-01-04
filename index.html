@@ -627,21 +627,27 @@
 </section>
 
 <section id="bio" class="pt-5">
-  <div class="container  py-5">
+  <div class="container py-5">
     <h2 class="pb-2 border-bottom">Biografia e foto de divulgação</h2>
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-4">
+      <div class="col-10 col-sm-8 col-lg-6 text-center">
         <a href="./assets/images/farinazzo_large.jpg" target="_blank"><figure class="figure">
-          <img src="./assets/images/farinazzo_large.jpg" class="d-block mx-lg-auto img-fluid" alt="Raphael Farinazzo" loading="lazy">
+          <img src="./assets/images/raphael_farinazzo.jpeg" class="d-block mx-lg-auto img-fluid bioimg" alt="Raphael Farinazzo" loading="lazy">
         </a><figcaption class="figure-caption">Clique para fazer download da imagem em alta resolução.</figcaption></figure>
       </div>
-      <div class="col-lg-8">
-        <h5 class="fw-bold lh-1 mb-3">Português</h5>
-          <p>Raphael Farinazzo é um executivo de Gestão de Produtos com mais de 15 anos de experiência em tecnologia e negócios, em empresas como RD Station, Involves, Xerpay/Betterfly e Unico IDtech.</p>
-          <p>Como membro ativo da comunidade de produto, Farina foi um dos organizadores do Product Camp por 4 anos e é um dos instrutores mais bem avaliados da PM3. Também atua como board member, investidor anjo e advisor para startups.</p>
-        <h5 class="fw-bold lh-1 mb-3 mt-5">English</h5>
-        <p>Raphael Farinazzo is a Product Management Executive with 15+ years of experience in technology and business, in companies such as RD Station, Involves, Xerpay/Betterfly, and unico IDtech.</p>
-        <p>An active member of the product community, Farina was one of the organizers of Product Camp Brazil for 4 years and is one of the top rated instructors at PM3. Also serves as board member, angel investor, and advisor for startups.</p>
+      <div class="col-lg-6">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check btn-bio" name="bio" id="biopt-btn" autocomplete="off" value="0" checked><label class="btn btn-outline-primary" for="biopt-btn">Portuguese</label>
+          <input type="radio" class="btn-check btn-bio" name="bio" id="bioen-btn" autocomplete="off" value="1"><label class="btn btn-outline-primary" for="bioen-btn">English</label>
+        </div>
+        <div id="biopt-text">
+            <p class="pt-3">Raphael Farinazzo é um executivo de Gestão de Produtos com mais de 15 anos de experiência em tecnologia e negócios, em empresas como RD Station, Involves, Xerpay/Betterfly e Unico IDtech.</p>
+            <p>Como membro ativo da comunidade de produto, Farina foi um dos organizadores do Product Camp por 4 anos e é um dos instrutores mais bem avaliados da PM3. Também atua como board member, investidor anjo e advisor para startups.</p>
+        </div>
+        <div id="bioen-text" class="d-none">
+          <p class="pt-3">Raphael Farinazzo is a Product Management Executive with 15+ years of experience in technology and business, in companies such as RD Station, Involves, Xerpay/Betterfly, and unico IDtech.</p>
+          <p>An active member of the product community, Farina was one of the organizers of Product Camp Brazil for 4 years and is one of the top rated instructors at PM3. Also serves as board member, angel investor, and advisor for startups.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -652,6 +658,7 @@
     <p class="text-center text-body-secondary">Copyright &copy; Raphael Farinazzo, 2024</p>
   </footer>
 </div>
+<script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
