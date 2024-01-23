@@ -1,0 +1,38 @@
+.profile-img {
+  border-radius: 50%;
+}
+
+.nav-menu {
+  background-color: #591414;
+}
+
+.nav-menu a {
+  color: antiquewhite;
+}
+
+.nav-menu a:hover {
+  color: white;
+}
+
+.podcast-card {
+  color: antiquewhite;
+  background-color: #145927;
+  width: 100%;
+  min-height: 205px;
+}
+
+section#articles h2, section#articles h3, section#articles h6, section#articles p {
+  color: #141a59;
+}
+
+section#podcasts h2 {
+  color: #145927;
+}
+
+section#videos h2, section#videos h3, section#videos h6, section#videos p {
+  color: #592814;
+}
+
+section#bio h2, section#bio h3, section#bio h5, section#bio p {
+  color: #593C14;
+}
